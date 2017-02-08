@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/container_vertical_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Applied color filter over icon"
+            android:fontFamily="sans-serif-light"
+            android:textSize="12sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview1"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <com.crypticcoder.android.socialviewandroid.LikeViewHorizontal
+                android:id="@+id/likeview_horizontal_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_iconFilterColor="@color/color1"
+                app:socialViewAndroid_likeViewSize="medium"
+                app:socialViewAndroid_textColor="@color/color1"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.CommentViewHorizontal
+                android:id="@+id/commentview_horizontal_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_iconFilterColor="@color/deep_red_0"
+                app:socialViewAndroid_commentViewSize="medium"
+                app:socialViewAndroid_textColor="@color/deep_red_0"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.ShareViewHorizontal
+                android:id="@+id/shareview_horizontal_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_iconFilterColor="@color/color10"
+                app:socialViewAndroid_shareViewSize="medium"
+                app:socialViewAndroid_textColor="@color/color10"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

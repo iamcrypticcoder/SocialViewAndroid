@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/container_vertical_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/textview0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Like, Comment, Share - Vertical, Small"
+            android:fontFamily="sans-serif-light"
+            android:textSize="12sp"/>
+
+        <LinearLayout
+            android:id="@+id/container_vertical_small_design_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview0"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true">
+
+            <com.crypticcoder.android.socialviewandroid.LikeViewVertical
+                android:id="@+id/likeview_vertical_small_design_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview0"
+                app:socialViewAndroid_likeViewSize="small"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.CommentViewVertical
+                android:id="@+id/commentview_vertical_small_design_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview0"
+                app:socialViewAndroid_commentViewSize="small"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.ShareViewVertical
+                android:id="@+id/shareview_vertical_small_design_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview0"
+                app:socialViewAndroid_shareViewSize="small"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_vertical_small_design_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/container_vertical_small_design_1"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true">
+
+            <com.crypticcoder.android.socialviewandroid.LikeViewVertical
+                android:id="@+id/likeview_vertical_small_design_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview0"
+                app:socialViewAndroid_iconSrc="@drawable/ic_like_design_1"
+                app:socialViewAndroid_likedIconSrc="@drawable/ic_like_design_1_filled"
+                app:socialViewAndroid_likeViewSize="small"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.CommentViewVertical
+                android:id="@+id/commentview_vertical_small_design_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview0"
+                app:socialViewAndroid_iconSrc="@drawable/ic_comment_design_1"
+                app:socialViewAndroid_commentedIconSrc="@drawable/ic_comment_design_1_filled"
+                app:socialViewAndroid_commentViewSize="small"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.ShareViewVertical
+                android:id="@+id/shareview_vertical_small_design_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview0"
+                app:socialViewAndroid_iconSrc="@drawable/ic_share_design_1"
+                app:socialViewAndroid_sharedIconSrc="@drawable/ic_share_design_1_filled"
+                app:socialViewAndroid_shareViewSize="small"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_vertical_small_design_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/container_vertical_small_design_2"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true">
+
+            <com.crypticcoder.android.socialviewandroid.LikeViewVertical
+                android:id="@+id/likeview_vertical_small_design_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview0"
+                app:socialViewAndroid_iconSrc="@drawable/ic_like_design_3"
+                app:socialViewAndroid_likedIconSrc="@drawable/ic_like_design_3_filled"
+                app:socialViewAndroid_likeViewSize="small"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.CommentViewVertical
+                android:id="@+id/commentview_vertical_small_design_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview0"
+                app:socialViewAndroid_iconSrc="@drawable/ic_comment_design_3"
+                app:socialViewAndroid_commentedIconSrc="@drawable/ic_comment_design_3_filled"
+                app:socialViewAndroid_commentViewSize="small"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.ShareViewVertical
+                android:id="@+id/shareview_vertical_small_design_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview0"
+                app:socialViewAndroid_iconSrc="@drawable/ic_share_design_3"
+                app:socialViewAndroid_sharedIconSrc="@drawable/ic_share_design_3_filled"
+                app:socialViewAndroid_shareViewSize="small"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/container_vertical_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/container_vertical_small"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Like, Comment, Share - Vertical, Medium"
+            android:fontFamily="sans-serif-light"
+            android:textSize="12sp"/>
+
+        <LinearLayout
+            android:id="@+id/container_vertical_medium_design_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview1"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true">
+
+            <com.crypticcoder.android.socialviewandroid.LikeViewVertical
+                android:id="@+id/likeview_vertical_medium_design_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_likeViewSize="medium"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.CommentViewVertical
+                android:id="@+id/commentview_vertical_medium_design_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_commentViewSize="medium"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.ShareViewVertical
+                android:id="@+id/shareview_vertical_medium_design_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_shareViewSize="medium"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_vertical_medium_design_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/container_vertical_medium_design_1"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true">
+
+            <com.crypticcoder.android.socialviewandroid.LikeViewVertical
+                android:id="@+id/likeview_vertical_medium_design_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_iconSrc="@drawable/ic_like_design_1"
+                app:socialViewAndroid_likedIconSrc="@drawable/ic_like_design_1_filled"
+                app:socialViewAndroid_likeViewSize="medium"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.CommentViewVertical
+                android:id="@+id/commentview_vertical_medium_design_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_iconSrc="@drawable/ic_comment_design_1"
+                app:socialViewAndroid_commentedIconSrc="@drawable/ic_comment_design_1_filled"
+                app:socialViewAndroid_commentViewSize="medium"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.ShareViewVertical
+                android:id="@+id/shareview_vertical_medium_design_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_iconSrc="@drawable/ic_share_design_1"
+                app:socialViewAndroid_sharedIconSrc="@drawable/ic_share_design_1_filled"
+                app:socialViewAndroid_shareViewSize="medium"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_vertical_medium_design_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/container_vertical_medium_design_2"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true">
+
+            <com.crypticcoder.android.socialviewandroid.LikeViewVertical
+                android:id="@+id/likeview_vertical_medium_design_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_iconSrc="@drawable/ic_like_design_3"
+                app:socialViewAndroid_likedIconSrc="@drawable/ic_like_design_3_filled"
+                app:socialViewAndroid_likeViewSize="medium"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.CommentViewVertical
+                android:id="@+id/commentview_vertical_medium_design_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_iconSrc="@drawable/ic_comment_design_3"
+                app:socialViewAndroid_commentedIconSrc="@drawable/ic_comment_design_3_filled"
+                app:socialViewAndroid_commentViewSize="medium"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.ShareViewVertical
+                android:id="@+id/shareview_vertical_medium_design_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_iconSrc="@drawable/ic_share_design_3"
+                app:socialViewAndroid_sharedIconSrc="@drawable/ic_share_design_3_filled"
+                app:socialViewAndroid_shareViewSize="medium"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/container_vertical_large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/container_vertical_medium"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Like, Comment, Share - Vertical, Large"
+            android:fontFamily="sans-serif-light"
+            android:textSize="12sp"/>
+
+        <LinearLayout
+            android:id="@+id/container_vertical_large_design_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview2"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true">
+
+            <com.crypticcoder.android.socialviewandroid.LikeViewVertical
+                android:id="@+id/likeview_vertical_large_design_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_likeViewSize="large"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.CommentViewVertical
+                android:id="@+id/commentview_vertical_large_design_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_commentViewSize="large"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.ShareViewVertical
+                android:id="@+id/shareview_vertical_large_design_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_shareViewSize="large"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_vertical_large_design_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/container_vertical_large_design_1"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true">
+
+            <com.crypticcoder.android.socialviewandroid.LikeViewVertical
+                android:id="@+id/likeview_vertical_large_design_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_iconSrc="@drawable/ic_like_design_1"
+                app:socialViewAndroid_likedIconSrc="@drawable/ic_like_design_1_filled"
+                app:socialViewAndroid_likeViewSize="large"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.CommentViewVertical
+                android:id="@+id/commentview_vertical_large_design_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_iconSrc="@drawable/ic_comment_design_1"
+                app:socialViewAndroid_commentedIconSrc="@drawable/ic_comment_design_1_filled"
+                app:socialViewAndroid_commentViewSize="large"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.ShareViewVertical
+                android:id="@+id/shareview_vertical_large_design_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_iconSrc="@drawable/ic_share_design_1"
+                app:socialViewAndroid_sharedIconSrc="@drawable/ic_share_design_1_filled"
+                app:socialViewAndroid_shareViewSize="large"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_vertical_large_design_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/container_vertical_large_design_2"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true">
+
+            <com.crypticcoder.android.socialviewandroid.LikeViewVertical
+                android:id="@+id/likeview_vertical_large_design_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_iconSrc="@drawable/ic_like_design_3"
+                app:socialViewAndroid_likedIconSrc="@drawable/ic_like_design_3_filled"
+                app:socialViewAndroid_likeViewSize="large"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.CommentViewVertical
+                android:id="@+id/commentview_vertical_large_design_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_iconSrc="@drawable/ic_comment_design_3"
+                app:socialViewAndroid_commentedIconSrc="@drawable/ic_comment_design_3_filled"
+                app:socialViewAndroid_commentViewSize="large"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.ShareViewVertical
+                android:id="@+id/shareview_vertical_large_design_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_iconSrc="@drawable/ic_share_design_3"
+                app:socialViewAndroid_sharedIconSrc="@drawable/ic_share_design_3_filled"
+                app:socialViewAndroid_shareViewSize="large"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/container_vertical_xlarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/container_vertical_large"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Like, Comment, Share - Vertical, Extra Large"
+            android:fontFamily="sans-serif-light"
+            android:textSize="12sp"/>
+
+        <LinearLayout
+            android:id="@+id/container_vertical_xlarge_design_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview3"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true">
+
+            <com.crypticcoder.android.socialviewandroid.LikeViewVertical
+                android:id="@+id/likeview_vertical_xlarge_design_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_likeViewSize="xlarge"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.CommentViewVertical
+                android:id="@+id/commentview_vertical_xlarge_design_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_commentViewSize="xlarge"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.ShareViewVertical
+                android:id="@+id/shareview_vertical_xlarge_design_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_shareViewSize="xlarge"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_vertical_xlarge_design_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/container_vertical_xlarge_design_1"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true">
+
+            <com.crypticcoder.android.socialviewandroid.LikeViewVertical
+                android:id="@+id/likeview_vertical_xlarge_design_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_iconSrc="@drawable/ic_like_design_1"
+                app:socialViewAndroid_likedIconSrc="@drawable/ic_like_design_1_filled"
+                app:socialViewAndroid_likeViewSize="xlarge"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.CommentViewVertical
+                android:id="@+id/commentview_vertical_xlarge_design_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_iconSrc="@drawable/ic_comment_design_1"
+                app:socialViewAndroid_commentedIconSrc="@drawable/ic_comment_design_1_filled"
+                app:socialViewAndroid_commentViewSize="xlarge"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.ShareViewVertical
+                android:id="@+id/shareview_vertical_xlarge_design_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_iconSrc="@drawable/ic_share_design_1"
+                app:socialViewAndroid_sharedIconSrc="@drawable/ic_share_design_1_filled"
+                app:socialViewAndroid_shareViewSize="xlarge"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_vertical_xlarge_design_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/container_vertical_xlarge_design_2"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true">
+
+            <com.crypticcoder.android.socialviewandroid.LikeViewVertical
+                android:id="@+id/likeview_vertical_xlarge_design_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_iconSrc="@drawable/ic_like_design_3"
+                app:socialViewAndroid_likedIconSrc="@drawable/ic_like_design_3_filled"
+                app:socialViewAndroid_likeViewSize="xlarge"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.CommentViewVertical
+                android:id="@+id/commentview_vertical_xlarge_design_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_iconSrc="@drawable/ic_comment_design_3"
+                app:socialViewAndroid_commentedIconSrc="@drawable/ic_comment_design_3_filled"
+                app:socialViewAndroid_commentViewSize="xlarge"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+
+            <com.crypticcoder.android.socialviewandroid.ShareViewVertical
+                android:id="@+id/shareview_vertical_xlarge_design_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:socialViewAndroid_iconSrc="@drawable/ic_share_design_3"
+                app:socialViewAndroid_sharedIconSrc="@drawable/ic_share_design_3_filled"
+                app:socialViewAndroid_shareViewSize="xlarge"
+                app:socialViewAndroid_textColor="@color/color5"
+                app:socialViewAndroid_count="123456"
+                app:socialViewAndroid_countFormat="short_format"
+                app:socialViewAndroid_onClickToggle="true"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

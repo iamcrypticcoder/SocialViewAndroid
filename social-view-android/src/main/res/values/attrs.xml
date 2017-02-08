@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Defining Custom Attributes-->
+
+    <attr name="socialViewAndroid_likeViewSize" format="enum">
+        <enum name="small" value="0"/>
+        <enum name="medium" value="1"/>
+        <enum name="large" value="2"/>
+        <enum name="xlarge" value="3"/>
+    </attr>
+    <attr name="socialViewAndroid_commentViewSize" format="enum">
+        <enum name="small" value="0"/>
+        <enum name="medium" value="1"/>
+        <enum name="large" value="2"/>
+        <enum name="xlarge" value="3"/>
+    </attr>
+    <attr name="socialViewAndroid_shareViewSize" format="enum">
+        <enum name="small" value="0"/>
+        <enum name="medium" value="1"/>
+        <enum name="large" value="2"/>
+        <enum name="xlarge" value="3"/>
+    </attr>
+    <attr name="socialViewAndroid_iconSrc" format="reference"/>
+    <attr name="socialViewAndroid_likedIconSrc" format="reference" />
+    <attr name="socialViewAndroid_commentedIconSrc" format="reference" />
+    <attr name="socialViewAndroid_sharedIconSrc" format="reference" />
+    <attr name="socialViewAndroid_textColor" format="reference|color"/>
+    <attr name="socialViewAndroid_iconFilterColor" format="reference|color"/>
+    <!-- Like, Comment, Share count format -->
+    <attr name="socialViewAndroid_countFormat" format="enum">
+        <enum name="short_format" value="0" />
+        <enum name="long_format" value="1" />
+    </attr>
+    <attr name="socialViewAndroid_count" format="reference|integer" />
+    <attr name="socialViewAndroid_onClickToggle" format="boolean" />
+
+    <declare-styleable name="LikeViewVertical">
+        <attr name="socialViewAndroid_iconSrc" />
+        <attr name="socialViewAndroid_likedIconSrc" />
+        <attr name="socialViewAndroid_iconFilterColor" />
+        <attr name="socialViewAndroid_textColor" />
+        <attr name="socialViewAndroid_likeViewSize" />
+        <attr name="socialViewAndroid_count" />
+        <attr name="socialViewAndroid_countFormat" />
+        <attr name="socialViewAndroid_onClickToggle" />
+    </declare-styleable>
+
+    <declare-styleable name="LikeViewHorizontal">
+        <attr name="socialViewAndroid_iconSrc" />
+        <attr name="socialViewAndroid_likedIconSrc" />
+        <attr name="socialViewAndroid_iconFilterColor" />
+        <attr name="socialViewAndroid_textColor" />
+        <attr name="socialViewAndroid_likeViewSize" />
+        <attr name="socialViewAndroid_count" />
+        <attr name="socialViewAndroid_countFormat" />
+        <attr name="socialViewAndroid_onClickToggle" />
+    </declare-styleable>
+
+    <declare-styleable name="CommentViewVertical">
+        <attr name="socialViewAndroid_iconSrc" />
+        <attr name="socialViewAndroid_commentedIconSrc" />
+        <attr name="socialViewAndroid_iconFilterColor" />
+        <attr name="socialViewAndroid_textColor" />
+        <attr name="socialViewAndroid_commentViewSize" />
+        <attr name="socialViewAndroid_count" />
+        <attr name="socialViewAndroid_countFormat" />
+        <attr name="socialViewAndroid_onClickToggle" />
+    </declare-styleable>
+
+    <declare-styleable name="CommentViewHorizontal">
+        <attr name="socialViewAndroid_iconSrc" />
+        <attr name="socialViewAndroid_commentedIconSrc" />
+        <attr name="socialViewAndroid_iconFilterColor" />
+        <attr name="socialViewAndroid_textColor" />
+        <attr name="socialViewAndroid_commentViewSize" />
+        <attr name="socialViewAndroid_count" />
+        <attr name="socialViewAndroid_countFormat" />
+        <attr name="socialViewAndroid_onClickToggle" />
+    </declare-styleable>
+
+    <declare-styleable name="ShareViewVertical">
+        <attr name="socialViewAndroid_iconSrc" />
+        <attr name="socialViewAndroid_sharedIconSrc" />
+        <attr name="socialViewAndroid_iconFilterColor" />
+        <attr name="socialViewAndroid_textColor" />
+        <attr name="socialViewAndroid_shareViewSize" />
+        <attr name="socialViewAndroid_count" />
+        <attr name="socialViewAndroid_countFormat" />
+        <attr name="socialViewAndroid_onClickToggle" />
+    </declare-styleable>
+
+    <declare-styleable name="ShareViewHorizontal">
+        <attr name="socialViewAndroid_iconSrc" />
+        <attr name="socialViewAndroid_sharedIconSrc" />
+        <attr name="socialViewAndroid_iconFilterColor" />
+        <attr name="socialViewAndroid_textColor" />
+        <attr name="socialViewAndroid_shareViewSize" />
+        <attr name="socialViewAndroid_count" />
+        <attr name="socialViewAndroid_countFormat" />
+        <attr name="socialViewAndroid_onClickToggle" />
+    </declare-styleable>
+
+</resources>
