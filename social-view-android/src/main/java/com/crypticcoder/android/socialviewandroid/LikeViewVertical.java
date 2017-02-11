@@ -95,7 +95,7 @@ public class LikeViewVertical extends LinearLayout {
             mLikeViewSize = a.getInt(R.styleable.LikeViewVertical_socialViewAndroid_likeViewSize, SIZE_SMALL);
             mCount = a.getInt(R.styleable.LikeViewVertical_socialViewAndroid_count, 0);
             mCountFormat = a.getInt(R.styleable.LikeViewVertical_socialViewAndroid_countFormat, COUNT_FORMAT_SHORT);
-            mOnClickToggle = a.getBoolean(R.styleable.LikeViewHorizontal_socialViewAndroid_onClickToggle, false);
+            mOnClickToggle = a.getBoolean(R.styleable.LikeViewVertical_socialViewAndroid_onClickToggle, false);
         } finally {
             a.recycle();
         }

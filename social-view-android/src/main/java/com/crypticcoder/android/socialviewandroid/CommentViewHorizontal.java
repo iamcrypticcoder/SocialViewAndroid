@@ -93,13 +93,13 @@ public class CommentViewHorizontal extends LinearLayout {
             mCommentViewSize = a.getInt(R.styleable.CommentViewHorizontal_socialViewAndroid_commentViewSize, SIZE_SMALL);
             mCount = a.getInt(R.styleable.CommentViewHorizontal_socialViewAndroid_count, 0);
             mCountFormat = a.getInt(R.styleable.CommentViewHorizontal_socialViewAndroid_countFormat, COUNT_FORMAT_SHORT);
-            mOnClickToggle = a.getBoolean(R.styleable.LikeViewHorizontal_socialViewAndroid_onClickToggle, false);
+            mOnClickToggle = a.getBoolean(R.styleable.CommentViewHorizontal_socialViewAndroid_onClickToggle, false);
         } finally {
             a.recycle();
         }
 
         // Setting Attributes
-        //if(mIconSrc != -1) iconImageView.setImageResource(mIconSrc);
+        if(mIconSrc != -1) iconImageView.setImageResource(mIconSrc);
         if(null != mIconFilterColor) iconImageView.setColorFilter(mIconFilterColor.getColorForState(getDrawableState(), Color.BLACK), PorterDuff.Mode.SRC_IN);
         else iconImageView.setColorFilter(ContextCompat.getColor(context, R.color.socialViewAndroid_iconColorFilterDefault));
         if(null != mTextColor) countTextView.setTextColor(mTextColor);

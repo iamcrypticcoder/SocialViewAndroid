@@ -1,6 +1,11 @@
 apply plugin: 'com.android.library'
 
 ext {
+    packageName = 'com.crypticcoder.android.socialviewandroid'
+    user = 'cryptic-coder'
+    apiKey = 'bfe1a05c87308e521592ce162cdb2dfd7458fda9'
+    repoName = 'social-view-android'
+
     bintrayRepo = 'maven'
     bintrayName = 'social-view-android'
 

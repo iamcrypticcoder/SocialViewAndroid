@@ -93,7 +93,7 @@ public class ShareViewVertical extends LinearLayout {
             mShareViewSize = a.getInt(R.styleable.ShareViewVertical_socialViewAndroid_shareViewSize, SIZE_SMALL);
             mCount = a.getInt(R.styleable.ShareViewVertical_socialViewAndroid_count, 0);
             mCountFormat = a.getInt(R.styleable.ShareViewVertical_socialViewAndroid_countFormat, COUNT_FORMAT_SHORT);
-            mOnClickToggle = a.getBoolean(R.styleable.ShareViewHorizontal_socialViewAndroid_onClickToggle, false);
+            mOnClickToggle = a.getBoolean(R.styleable.ShareViewVertical_socialViewAndroid_onClickToggle, false);
         } finally {
             a.recycle();
         }

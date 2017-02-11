@@ -103,7 +103,7 @@ public class LikeViewHorizontal extends LinearLayout {
         // Setting Attributes
         if(mIconSrc != -1) iconImageView.setImageResource(mIconSrc);
         if(null != mIconFilterColor) iconImageView.setColorFilter(mIconFilterColor.getColorForState(getDrawableState(), Color.BLACK), PorterDuff.Mode.SRC_IN);
-        else iconImageView.setColorFilter(ContextCompat.getColor(getContext(), R.color.socialViewAndroid_iconColorFilterDefault), PorterDuff.Mode.SRC_IN);
+        else iconImageView.setColorFilter(ContextCompat.getColor(context, R.color.socialViewAndroid_iconColorFilterDefault), PorterDuff.Mode.SRC_IN);
         if(null != mTextColor) countTextView.setTextColor(mTextColor);
         else countTextView.setTextColor(ContextCompat.getColor(context, R.color.socialViewAndroid_textColorDefault));
         ViewGroup.LayoutParams params = iconImageView.getLayoutParams();

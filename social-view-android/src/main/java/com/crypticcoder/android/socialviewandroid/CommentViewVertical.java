@@ -94,7 +94,7 @@ public class CommentViewVertical extends LinearLayout {
             mCommentViewSize = a.getInt(R.styleable.CommentViewVertical_socialViewAndroid_commentViewSize, SIZE_SMALL);
             mCount = a.getInt(R.styleable.CommentViewVertical_socialViewAndroid_count, 0);
             mCountFormat = a.getInt(R.styleable.CommentViewVertical_socialViewAndroid_countFormat, COUNT_FORMAT_SHORT);
-            mOnClickToggle = a.getBoolean(R.styleable.LikeViewHorizontal_socialViewAndroid_onClickToggle, false);
+            mOnClickToggle = a.getBoolean(R.styleable.CommentViewVertical_socialViewAndroid_onClickToggle, false);
         } finally {
             a.recycle();
         }
